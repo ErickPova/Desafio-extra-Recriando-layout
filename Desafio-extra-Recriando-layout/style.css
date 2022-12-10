@@ -1,0 +1,116 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+:root{
+  font-size: 62.5%;
+
+  --cl--primary: #3F3D56;
+  --cl--Secondary: #EE24FF;
+  --cl--Third: #828282;
+  --cl--fourth: #ECEFF2;
+
+  --ff--dosis: font-family: 'Dosis', sans-serif;
+  --ff--openSans: font-family: 'Open Sans', sans-serif;
+}
+body{
+  display: flex;
+  flex-direction: column;
+
+  min-height: 100vh;
+  
+  background: #FFFFFF;
+}
+.page{
+  margin: auto;
+}
+main{
+  margin: 6.4rem auto 0rem;
+
+  width: 62.6rem;
+  height: 48.6rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1{
+  font-family: var(--ff--dosis);
+  font-weight: 500;
+  font-size: 3.2rem;
+
+  color: var(--cl--primary);
+
+  margin: 3.2rem 0 1.6rem;
+}
+h1 span{
+  color: var(--cl--Secondary);
+  font-weight: bold;
+}
+.grouptext{
+  width: 54rem;
+  height: 10.7rem;
+
+  margin: 0 auto 3.2rem;
+
+  text-align: center;
+}
+.grouptext p, main p{
+  font-family: var(--ff--openSans);
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+
+  text-align: center;
+
+  color: var(--cl--Third);
+
+  letter-spacing: 0.09rem;
+}
+p span{
+  color: var(--cl--primary);
+
+  font-weight: bold;
+  font-style: bold;
+}
+.spanDifColor{
+  color: var(--cl--Third);
+}
+.line{
+  border: 0.1rem solid var(--cl--fourth);
+  width: 39.1rem;
+  height: 0px;
+
+  margin: auto;
+}
+ul{
+  max-width: 39.1rem;
+
+  display: flex;
+  justify-content: space-between;
+  gap: 8rem;
+
+  margin: auto;
+
+}
+ul li{
+  list-style: none;
+}
+ul li a{
+  font-family: var(--ff--openSans);
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-decoration: none;
+  
+  color: var(--cl--primary)
+}
+a:hover{
+  color: #171622;
+}
+
+footer img {
+  vertical-align: bottom;
+  width: 100%;
+}
+
